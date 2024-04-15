@@ -65,6 +65,8 @@ function CompoInput() {
         }}
         onClick={handleAdd}
       >
+
+        
         <FavoriteIcon sx={{ fontSize: 70, color: "white", marginRight: "8px", marginTop: "-8px"  }} />
         <Typography variant="button" sx={{position:"absolute",fontWeight: "700",color: "pink" ,marginTop:"-6px",marginRight:"6px", fontSize:"0.995rem",}}>ADD</Typography>
       </IconButton>
